@@ -4,60 +4,180 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-- Hero section  -->
-    <div>
-      <div i>
-        <header id="header-container" class="container">
-          <div id="header-logo">
-            <img width="13" height="16" src="./logo.png" />
-          </div>
-          <div id="navbar-items">
-            <span class="navbar-item">Store</span>
-            <span class="navbar-item">Mac</span>
-            <span class="navbar-item">ipad</span>
-            <span class="navbar-item">iphone</span>
-            <span class="navbar-item">Watch</span>
-            <span class="navbar-item">Vision</span>
-            <span class="navbar-item">Airpods</span>
-            <span class="navbar-item">TV&Home</span>s
-            <span class="navbar-item">Entertainment</span>
-            <span class="navbar-item">Accessories</span>
-            <span class="navbar-item">Support</span>
-
-            <span>
-              <img width="14" height="14" src="./search.png" />
-            </span>
-          </div>
-          <div id="user-icon">
-            <img width="13" height="15" src="./Vector .png" />
-          </div>
-        </header>
+    <!-- Header -->
+    <header>
+      <div id="nav-container">
+        <div id="logocontainer"><div id="logo"></div></div>
+        <p class="headertext">Store</p>
+        <p class="headertext">Mac</p>
+        <p class="headertext">iPad</p>
+        <p class="headertext">iPhone</p>
+        <p class="headertext">Watch</p>
+        <p class="headertext">Vision</p>
+        <p class="headertext">Airpods</p>
+        <p class="headertext">TV & Home</p>
+        <p class="headertext">Entertainment</p>
+        <p class="headertext">Accessories</p>
+        <p class="headertext">Support</p>
+        <div id="logocontainer"><div id="search"></div></div>
+        <div id="logocontainer"><div id="shop"></div></div>
       </div>
-      <div>
-        <span class="navbar-item"
-          >We're donating $5 to the Global Fund for every purchase made with
-          Apple Pay at Apple. Through 12/8.</span
-        >
+    </header>
+        <div id="header-text">
+        <span class="headertext"> 
+          We're donating $5 to the Global Fund for every purchase made with
+          Apple Pay at Apple. Through 12/8.
+        </span>
       </div>
+    <!-- header end  -->
+
+  
+
+    <div id="limiter">
+      <!-- Main text -->
+
+      <div class="maincontainer">
+        <div id="maintextcontainer">
+          <span class="heading">iPhone 16 Pro</span>
+          <p class="subtext">Hello, Apple Intelligence.</p>
+        </div>
+        <div id="buttons">
+          <div class="lmbutton">
+            <p class="buttontext" id="ehniilearn">Learn More</p>
+          </div>
+          <div class="buybutton">
+            <p class="buttontext2" id="ehniibuy">Buy</p>
+          </div>
+        </div>
+      </div>
+      <!-- Main Text End -->
+
+      <!-- 3 BIG PICTURES START -->
+      <div id="container">
+        <div class="piccontainer" id="mainpicture"></div>
+        <!-- 1ST  PICTURES -->
+
+        <div class="piccontainer" id="mainpicture2">
+          <div class="maincontainer" id="secondpic">
+            <div id="maintextcontainer">
+              <p class="heading">iPhone 16</p>
+              <p class="subtext">Hello, Apple Intelligence.</p>
+            </div>
+            <div id="buttons">
+              <div class="lmbutton" id="lmsec">
+                <p class="buttontext" id="hoyrdohlearn">Learn More</p>
+              </div>
+              <div class="buybutton" id="buysec">
+                <p class="buttontext2" id="hoyrdohbuy">Buy</p>
+              </div>
+            </div>
+          </div>
+          <!-- 2ND  PICTURES -->
+        </div>
+
+        <div class="piccontainer" id="mainpicture3">
+          <div class="maincontainer" id="thirdpic">
+            <div id="maintextcontainer" id="gap">
+              <p class="heading" id="headgift">Gift magic.</p>
+              <p class="subtext" id="subgift">
+                Make their holiday wish come true.
+              </p>
+            </div>
+            <div class="buttonwidth" id="buttons">
+              <div class="lmbutton">
+                <p class="buttontext" id="shopgift">Shop gifts</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3RD  PICTURES -->
+      </div>
+      <!-- 3 BIG PICTURES END -->
+
+      <!-- PRODUCTS -->
+      <div class="container">
+        <div class="holder" id="ipad">
+          <div id="ipadair"></div>
+          <p class="subtext" id="product">
+            Two sizes. Faster chip. Does it all.
+          </p>
+          <div class="buttonsproduct">
+            <div class="lmbutton">
+              <p class="buttontext" id="ehniilearn">Learn More</p>
+            </div>
+            <div class="buybutton">
+              <p class="buttontext2" id="ehniibuy">Buy</p>
+            </div>
+          </div>
+          <p id="rainbow">Hello, Apple Intelligence.</p>
+        </div>
+        <div class="holder" id="airpod">
+          <div>
+            <div class="titles-holder">
+              <div class="logo-holder">
+                <div class="logo"></div>
+                <p class="title" id="airpod-text">AirPods Pro 2</p>
+              </div>
+              <p class="sub-title" id="solo-white">
+                Now with a Hearing Aid feature.2
+              </p>
+            </div>
+            <div class="buttonsproduct" id="btn">
+              <div class="lmbutton" id="lm-btn">
+                <p class="btn-text-style lm-btn-text">Learn More</p>
+              </div>
+              <div class="buybutton" id="buy-btn">
+                <p class="btn-text-style buy-btn-text">Buy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="holder" id="watch"></div>
+        <div class="holder" id="macbook"></div>
+        <div class="holder" id="trade"></div>
+        <div class="holder" id="card"></div>
+      </div>
+      <!-- PRODUCTS END -->
+
+      <!-- MOVIE SCROLL -->
+      <div class="container" id="scroll">
+        <div class="poster" id="left"></div>
+        <div class="poster" id="middle"></div>
+        <div class="poster" id="right"></div>
+      </div>
+      <!-- MOVIE SCROLL -->
+
+      <!-- SCROLL TABS -->
+      <div id="scroll">
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+        <div class="tabs"></div>
+      </div>
+      <!-- SCROLL TABS -->
+
+      <!-- FOOTER -->
+      <div id="footerholder">
+        <div id="service">
+          <div class="service" id="neg"></div>
+          <div class="service" id="hoyr"></div>
+          <div class="service" id="guraw"></div>
+          <div class="service" id="duruw"></div>
+          <div class="service" id="taw"></div>
+        </div>
+        <div id="nextbutton"></div>
+      </div>
+
+      <!-- FOOTER -->
     </div>
-    <div id="hero-container">
-      <!-- Header section -->
-
-      <!-- Header End -->
-      <!-- Hero Text Start -->
-
-      <!-- <div id="hero-texts" class="container">
-        <h1 id="pure">Pure magic</h1>
-        <h1 id="awaits">AWAITS!</h1>
-        <h1 id="year">2026</h1>
-      </div> -->
-      <!-- Hero Text End -->
-    </div>
-    <!-- Hero section End -->
-
-    <!-- Location Section start -->
   </body>
 </html>
