@@ -246,12 +246,7 @@
   position: absolute;
   top: 145px;
 }
-.logo {
-  width: 26px;
-  height: 32px;
-  background-image: url(./pictures/logo.png);
-  background-size: cover;
-}
+
 .title {
   font-family: "inter", sans-serif;
   font-weight: 700;
@@ -298,14 +293,14 @@
   color: #2997ff;
 }
 #ipad {
-  background-image: url(./pictures/ipadairbg.png);
+  background-image: url(./3.png);
 }
 #ipadair {
   top: 58px;
   width: 430px;
   height: 33px;
-  background-image: url(./pictures/ipadair.png);
-  background-size: cover;
+  background-image: url(./ipad\ air.png);
+  /* background-size: cover; */
 }
 .subtext#product {
   position: absolute;
@@ -331,23 +326,23 @@
   -webkit-text-fill-color: transparent;
 }
 #airpod {
-  background-image: url(./pictures/airpod.png);
+  background-image: url(./4.png);
 }
 .title#airpod-text {
   font-size: 36px;
   color: white;
 }
 #watch {
-  background-image: url(./pictures/iwatch.png);
+  background-image: url(./5.png);
 }
 #macbook {
-  background-image: url(./pictures/macbookair.png);
+  background-image: url(./6.png);
 }
 #trade {
-  background-image: url(./pictures/tradein.png);
+  background-image: url(./7.png);
 }
 #card {
-  background-image: url(./pictures/card.png);
+  background-image: url(./8.png);
 }
 /* Products end */
 
@@ -356,25 +351,28 @@
   width: 3782px;
   height: 668px;
   gap: 16px;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
 .poster {
   width: 1250px;
   height: 668px;
 }
 #left {
-  background-image: url(./pictures/mer.png);
+  background-image: url(./movie\ icon.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #middle {
-  background-image: url(./pictures/fly.png);
+  background-image: url(./movie\ icon2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #right {
-  background-image: url(./pictures/sh.png);
+  background-image: url(./movie\ icon3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -388,7 +386,7 @@
   margin-top: 12px;
   gap: 14px;
 }
-.tabs {
+.tseg {
   width: 8px;
   height: 8px;
   border-radius: 4px;
@@ -414,7 +412,7 @@
   height: 292px;
 }
 #neg {
-  background-image: url(./pictures/1st.jpg);
+  background-image: url(./footer\ photo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -423,13 +421,13 @@
   background-color: #1b2632;
 }
 #guraw {
-  background-image: url(./pictures/2k25.jpg);
+  background-image: url(./footer\ photo2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #duruw {
-  background-image: url(./pictures/gym.jpg);
+  background-image: url(./footer\ photo3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
