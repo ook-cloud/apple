@@ -189,7 +189,7 @@ header {
 #ipad-hidden {
   display: none;
   height: 650px;
-  background: url(/11.jpg) no-repeat center center;
+  background: url() no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -197,6 +197,12 @@ header {
 }
 #carrier {
   display: none;
+  height: 650px;
+  background: url(/11.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #container {
   display: flex;
