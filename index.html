@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apple Web</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="tablet-style.css" />
-    <link rel="stylesheet" href="phone-style.css" />
 
+    <link rel="stylesheet" href="tablet.css" />
+
+    <link rel="stylesheet" href="phone.css" />
   </head>
   <body>
     <!-- Header -->
@@ -60,9 +61,6 @@
           </div>
         </div>
       </div>
-      <!-- Main Text End -->
-
-      <!-- PICTURES START -->
       <div id="container">
         <div class="piccontainer" id="mainpicture"></div>
         <div class="piccontainer" id="mainpicture2">
@@ -97,24 +95,26 @@
             </div>
           </div>
         </div>
-  
-         <div class="piccontainer" id="ipad-hidden">
+
+        <!-- hidden -->
+        <div class="holder" id="ipad-hidden">
           <div id="ipadair"></div>
           <p class="subtext" id="product">
             Two sizes. Faster chip. Does it all.
           </p>
           <div class="buttonsproduct">
             <div class="lmbutton">
-              <p class="buttontext" id="ehniilearn">Learn More</p>
+              <p class="buttontext" id="learn1">Learn More</p>
             </div>
             <div class="buybutton">
-              <p class="buttontext2" id="ehniibuy">Buy</p>
+              <p class="buttontext2" id="buy1">Buy</p>
             </div>
           </div>
           <p id="rainbow">Hello, Apple Intelligence.</p>
         </div>
       </div>
-      <!-- PICTURES END -->
+
+      <!-- Main Text End -->
 
       <!-- PRODUCTS -->
       <div class="container">
@@ -126,10 +126,10 @@
           </p>
           <div class="buttonsproduct">
             <div class="lmbutton">
-              <p class="buttontext" id="ehniilearn">Learn More</p>
+              <p class="buttontext" id="learn1">Learn More</p>
             </div>
             <div class="buybutton">
-              <p class="buttontext2" id="ehniibuy">Buy</p>
+              <p class="buttontext2" id="buy1">Buy</p>
             </div>
           </div>
           <p id="rainbow">Hello, Apple Intelligence.</p>
@@ -138,13 +138,29 @@
         <div class="holder" id="airpod">
           <div class="title-btn-holder">
             <div class="title-holder">
+              <p class="airpods-text">AirPods 2</p>
+              <div class="airpods-subtext">
+                <p>Now with a Hearing Aid feature.2</p>
+              </div>
+            </div>
+            <div class="btn-holder">
+              <div class="learn-more-btn">
+                <p class="learn-more">Learn more</p>
+              </div>
+              <div class="buy-btn"><p class="buy">Buy</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="holder" id="airpod-hidden">
+          <div class="title-btn-holder">
+            <div class="title-holder">
               <p class="airpods-text">AirPods 4</p>
               <div class="airpods-subtext">
                 <p>Iconic. Now supersonic.</p>
                 <p>Available with Active Noise</p>
                 <p>Cancellation.2</p>
               </div>
-              
             </div>
             <div class="btn-holder">
               <div class="learn-more-btn">
@@ -171,6 +187,24 @@
             </div>
           </div>
         </div>
+
+        <div class="holder" id="watch-hidden">
+          <div class="title-btn-holder" id="watch-title">
+            <div class="logo-holder">
+              <div class="logo product-logo"></div>
+              <span class="product-title">WATCH</span>
+            </div>
+            <p id="series">SERIES 10</p>
+            <p class="product-subtext">Thinstant classic.</p>
+            <div class="btn-holder">
+              <div class="learn-more-btn">
+                <p class="learn-more">Learn more</p>
+              </div>
+              <div class="buy-btn"><p class="buy">Buy</p></div>
+            </div>
+          </div>
+        </div>
+
         <!-- MACBOOK -->
         <div class="holder" id="macbook">
           <div class="title-btn-holder" id="watch-title">
@@ -193,11 +227,32 @@
               <p class="product-title">Apple For</p>
               <p class="product-title">Small Business</p>
             </div>
-            <p class="product-subtext space" id="space">Hardware, software, and </p>
-            <p class="product-subtext space" id="space">expert help - all in one place.</p>
+            <p class="product-subtext space" id="space">
+              Hardware, software, and
+            </p>
+            <p class="product-subtext space" id="space">
+              expert help - all in one place.
+            </p>
             <div class="btn-holder solo">
               <div class="learn-more-btn" id="solo">
                 <p class="learn-more">Learn more</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARRIER -->
+        <div class="holder hidden" id="carrier">
+          <div class="title-btn-holder" id="carrier-title">
+            <div class="logo-holder">
+              <span class="product-title">Carrier deals at Apple</span>
+            </div>
+            <p class="product-subtext" id="space">
+              Get up to $1000 in credit on a new iPhone. Trade-in may be
+              required.
+            </p>
+            <div class="btn-holder">
+              <div class="learn-more-btn" id="deal">
+                <p class="learn-more">Find your deal</p>
               </div>
             </div>
           </div>
@@ -215,22 +270,6 @@
             <div class="btn-holder">
               <div class="learn-more-btn" id="gye">
                 <p class="learn-more">Get your estimate</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- CARRIER -->
-        <div class="holder hidden" id="carrier">
-          <div class="title-btn-holder" id="carrier-title">
-            <div class="logo-holder">
-              <span class="product-title">Carrier deals at Apple</span>
-            </div>
-            <p class="product-subtext" id="space">
-              Get up to $1000 in credit on a new iPhone. Trade-in may be required.
-            </p>
-            <div class="btn-holder">
-              <div class="learn-more-btn" id="deal">
-                <p class="learn-more">Find your deal</p>
               </div>
             </div>
           </div>
@@ -256,7 +295,7 @@
           </div>
         </div>
         <!-- HIDDEN TRADE IN -->
-         <div class="holder hidden" id="trade">
+        <div class="holder hidden" id="trade">
           <div class="title-btn-holder" id="watch-title">
             <div class="logo-holder">
               <div class="logo product-logo"></div>
@@ -276,7 +315,7 @@
       <!-- PRODUCTS END -->
 
       <!-- MOVIE SCROLL -->
-      <div class="scroll-container">
+      <div class="web-scroll">
         <div class="poster" id="left"></div>
         <div class="poster" id="middle">
           <div class="movie-btn-holder">
@@ -334,12 +373,11 @@
             <p class="footer-title" id="arcade">Strength with</p>
             <div class="footer-logo fitness"></div>
           </div>
- <div class="service" id="taw">
+          <div class="service" id="taw">
             <div class="player-cover"></div>
             <p class="footer-title" id="player">imusic</p>
             <div class="footer-logo music"></div>
           </div>
-       
 
           <div class="service" id="neg">
             <div class="service-holder">
@@ -368,14 +406,12 @@
             <p class="footer-title" id="player">Player</p>
             <div class="footer-logo music"></div>
           </div>
-           </div>
-
         </div>
-
-        <div id="nextbutton"></div>
       </div>
 
-      <!-- FOOTER -->
+      <div id="nextbutton"></div>
     </div>
+
+    <!-- FOOTER -->
   </body>
 </html>

@@ -37,19 +37,6 @@ header {
   background-image: url(./logo.png);
   background-size: cover;
 }
-#menu {
-  width: 18px;
-  height: 18px;
-  background-image: url(./menu.png);
-  background-size: cover;
-  display: none;
-}
-.headertext {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  font-style: normal;
-}
 #search {
   width: 14.08px;
   height: 14.08px;
@@ -62,20 +49,34 @@ header {
   background-image: url(./Vector\ .png);
   background-size: cover;
 }
+#menu {
+  width: 18px;
+  height: 18px;
+  background-image: url(./menu.png);
+  background-size: cover;
+  display: none;
+}
+
 #header-text {
-  width: 100%;
+  width: 100vw;
   height: 80px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 20px;
 }
+.headertext {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+}
 /* HEADER END */
 
 /* MAIN TEXT */
 .maincontainer {
   position: absolute;
-  width: 405px;
+  width: 100%;
   height: 172px;
   top: 151px;
   left: 50%;
@@ -180,40 +181,24 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
   border: 2px solid red;
 }
 
 /* <!-- PICTURES START --> */
-#ipad-hidden {
-  display: none;
-  height: 650px;
-  background: url() no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#carrier {
-  display: none;
-  height: 650px;
-  background: url(/11.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 #container {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 12px;
 }
+
 .piccontainer {
   width: 100%;
   height: 692px;
 }
+
 #mainpicture {
   background: url(/Figure.png) no-repeat center center;
   -webkit-background-size: cover;
@@ -249,7 +234,7 @@ header {
   align-items: center;
   color: rgb(0, 0, 0);
 }
-.buttontext2#hoyrdohbuy {
+.buttontext2#buy2 {
   color: white;
   font-weight: 300;
 }
@@ -278,13 +263,33 @@ header {
 /* <!-- PICTURES START --> */
 
 /* Products */
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-  margin-top: 12px;
+/* hidden */
+#ipad-hidden {
+  display: none;
   width: 100%;
-  margin: 0 auto;
+  background: url(/3.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#airpod-hidden {
+  display: none;
+  width: 100%;
+  background: url(/9.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#business {
+  display: none;
+  width: 100%;
+  background: url(/12.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .holder {
   height: 580px;
@@ -298,8 +303,37 @@ header {
   background-position: center;
   background-size: cover;
 }
-.holder#business {
+#bus {
+  display: flex;
+  flex-direction: column;
+}
+#carrier {
   display: none;
+  width: 100%;
+  background: url(/11.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#watch-hidden {
+  display: none;
+  width: 100%;
+  background: url(/10.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* hidden */
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+  width: 100%;
+  margin: 0 auto;
 }
 .buttonsproduct {
   display: flex;
@@ -400,7 +434,7 @@ header {
     #f2416b,
     #f55600
   );
-  /* Provide the standard property for compatibility */
+
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -533,7 +567,7 @@ header {
 }
 #space {
   width: 322px;
-  height: 50px;
+  /* height: 50px; */
 }
 .holder.hidden#trade {
   display: none;
@@ -570,7 +604,7 @@ header {
 /* Products end */
 
 /* SCROLL */
-.scroll-container {
+.web-scroll {
   width: 100%;
   height: 668px;
   gap: 16px;
@@ -582,7 +616,8 @@ header {
   overflow-x: auto;
   overflow-y: hidden;
 }
-.scroll-container::-webkit-scrollbar {
+
+.web-scroll::-webkit-scrollbar {
   display: none;
 }
 .poster {
@@ -624,24 +659,29 @@ header {
 .movie-subtext {
   font-weight: 400;
 }
-#left {
-  background-image: url(./movie\ icon.jpg);
-  background-size: cover;
+
+@media (min-width: 1021px) and (max-width: 2000px) {
+  #left {
+    background-image: url(./web\ movie.jpg);
+    background-size: cover;
+  }
+
+  #middle {
+    background-image: url(./web\ movie2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #right {
+    width: 1250px;
+    height: 668px;
+    background-image: url(./web\ movie3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
-#middle {
-  background-image: url(./movie\ icon2.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#right {
-  width: 1250px;
-  height: 668px;
-  background-image: url(./movie\ icon3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .tseg {
   width: 8px;
   height: 8px;
@@ -656,6 +696,31 @@ header {
 /* SCROLL */
 
 /* FOOTER */
+#ph1 {
+  background-image: url(./phone2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service#ph1 {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+#ph2 {
+  position: relative;
+  background-color: #6529cf;
+}
+.La-cover {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 196px;
+  height: 196px;
+  background-size: cover;
+  background-image: url(./footer\ photo2.jpg);
+}
+
 #footerholder {
   width: 100%;
   height: 292px;
@@ -800,7 +865,5 @@ header {
   bottom: 23px;
   right: 15px;
 }
-/* FOOTER */
 
-@media screen and (max-width: 768px) {
-}
+/* FOOTER */
