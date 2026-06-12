@@ -4,9 +4,9 @@
   }
 
   #menu {
-    display: block;
-    width: 30px;
-    height: 30px;
+    display: flex;
+    width: 20px;
+    height: 25px;
     background: url(/menu.png) no-repeat center center;
     background-size: cover;
   }
@@ -15,7 +15,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
   }
   #ph-container {
     top: 450px;
