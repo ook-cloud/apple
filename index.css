@@ -606,7 +606,6 @@ header {
 /* SCROLL */
 .web-scroll {
   width: 100%;
-  height: 668px;
   gap: 16px;
   margin-top: 0px;
   padding: 0px;
@@ -697,17 +696,14 @@ header {
 
 /* FOOTER */
 #ph1 {
+  display: none;
   background-image: url(./phone2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.service#ph1 {
-  display: flex;
-  align-items: end;
-  justify-content: center;
-}
 #ph2 {
+  display: none;
   position: relative;
   background-color: #6529cf;
 }
@@ -718,7 +714,7 @@ header {
   width: 196px;
   height: 196px;
   background-size: cover;
-  background-image: url(./footer\ photo2.jpg);
+  background-image: url(./footer\ photo6.jpg);
 }
 
 #footerholder {
@@ -865,5 +861,13 @@ header {
   bottom: 23px;
   right: 15px;
 }
-
+#nextbutton {
+  width: 12px;
+  height: 12px;
+  background-image: url(./25835-9-next-button-photos.png);
+  background-size: cover;
+  display: flex;
+  margin-left: auto;
+  padding: 12px;
+}
 /* FOOTER */

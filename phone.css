@@ -1,5 +1,4 @@
 @media (min-width: 390px) and (max-width: 767px) {
-
   .nav-text {
     display: none;
   }
@@ -18,13 +17,31 @@
     align-items: center;
     padding: 0 16px;
   }
+  #ph-container {
+    top: 450px;
+  }
+  #mainpicture {
+    background: url(/Figure-ph.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  #mainpicture2 {
+    background: url(/1-ph.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   #mainpicture3 {
     display: none;
   }
   .container {
     display: flex;
     flex-direction: column;
-    gap: 12px;  
+    gap: 12px;
     margin-top: 12px;
     width: 100%;
     margin: 0 auto;
@@ -56,28 +73,87 @@
   #card {
     display: none;
   }
+  .movie-btn-holder {
+    display: none;
+  }
   #left {
+    width: 274px;
+    height: 495px;
     background-image: url(./ph-movie.jpg);
     background-size: cover;
   }
   #middle {
+    width: 274px;
+    height: 495px;
     background-image: url(./ph-movie2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   #right {
+    width: 274px;
+    height: 495px;
     background-image: url(./ph-movie3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  #ph-movie {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  #ph-movie1 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./ph-movie01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #ph-movie2 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./ph-movie02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #ph-movie3 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./ph-movie03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #ph-movie4 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./ph-movie04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #ph-movie5 {
+    width: 274px;
+    height: 495px;
+    background-image: url(./ph-movie05.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-
-
-
-
-
-
-
+  #ph1 {
+    display: flex;
+  }
+  #ph2 {
+    display: flex;
+  }
+  #neg {
+    display: none;
+  }
+  #hoyr {
+    display: none;
+  }
 }

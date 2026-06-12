@@ -50,6 +50,9 @@
   #card {
     display: none;
   }
+  .movie-btn-holder {
+    display: none;
+  }
   #left {
     background-image: url(./tablet\ movie.jpg);
     background-size: cover;
@@ -66,10 +69,4 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-}
-#neg {
-  background-image: url(./footer\ photo.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
