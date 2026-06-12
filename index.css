@@ -19,6 +19,9 @@ header {
   justify-content: center;
   z-index: 5;
 }
+#apple-logo {
+  padding-left: 16px;
+}
 .nav-text {
   display: flex;
   flex-direction: row;
