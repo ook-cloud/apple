@@ -67,6 +67,7 @@ header {
   font-weight: 400;
   font-size: 12px;
   font-style: normal;
+  text-align: center;
 }
 /* HEADER END */
 
@@ -75,7 +76,7 @@ header {
   position: absolute;
   width: 100%;
   height: 172px;
-  top: 151px;
+  top: 50px;
   left: 50%;
   transform: translate(-50%, 0%);
   z-index: 1;
@@ -656,7 +657,7 @@ header {
   font-weight: 400;
 }
 
-@media (min-width: 1021px) and (max-width: 2000px) {
+@media (min-width: 1021px) and (max-width: 3000px) {
   #left {
     background-image: url(./web\ movie.jpg);
     background-size: cover;
